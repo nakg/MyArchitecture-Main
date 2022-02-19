@@ -34,6 +34,20 @@
 			remoteGlobalIDString = B3A9BFE227C1222100D3714E;
 			remoteInfo = "MyArchitecture-Main";
 		};
+		B3E5AE5027C124990091F6A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3E5AE4B27C124990091F6A4 /* MyArchitecture-CommonPresenter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3A9C02327C1225700D3714E;
+			remoteInfo = "MyArchitecture-CommonPresenter";
+		};
+		B3E5AE5227C124990091F6A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3E5AE4B27C124990091F6A4 /* MyArchitecture-CommonPresenter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3A9C02D27C1225700D3714E;
+			remoteInfo = "MyArchitecture-CommonPresenterTests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +65,7 @@
 		B3A9C00627C1222A00D3714E /* MyArchitecture-MainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyArchitecture-MainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A9C00A27C1222A00D3714E /* MyArchitecture_MainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArchitecture_MainUITests.swift; sourceTree = "<group>"; };
 		B3A9C00C27C1222A00D3714E /* MyArchitecture_MainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArchitecture_MainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3E5AE4B27C124990091F6A4 /* MyArchitecture-CommonPresenter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "MyArchitecture-CommonPresenter.xcodeproj"; path = "../../MyArchitecture-CommonPresenter/MyArchitecture-CommonPresenter.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +139,20 @@
 		B3A9C00927C1222A00D3714E /* MyArchitecture-MainUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B3E5AE4B27C124990091F6A4 /* MyArchitecture-CommonPresenter.xcodeproj */,
 				B3A9C00A27C1222A00D3714E /* MyArchitecture_MainUITests.swift */,
 				B3A9C00C27C1222A00D3714E /* MyArchitecture_MainUITestsLaunchTests.swift */,
 			);
 			path = "MyArchitecture-MainUITests";
+			sourceTree = "<group>";
+		};
+		B3E5AE4C27C124990091F6A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E5AE5127C124990091F6A4 /* MyArchitecture_CommonPresenter.framework */,
+				B3E5AE5327C124990091F6A4 /* MyArchitecture-CommonPresenterTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +245,12 @@
 			mainGroup = B3A9BFDA27C1222100D3714E;
 			productRefGroup = B3A9BFE427C1222100D3714E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B3E5AE4C27C124990091F6A4 /* Products */;
+					ProjectRef = B3E5AE4B27C124990091F6A4 /* MyArchitecture-CommonPresenter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B3A9BFE227C1222100D3714E /* MyArchitecture-Main */,
@@ -228,6 +259,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B3E5AE5127C124990091F6A4 /* MyArchitecture_CommonPresenter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MyArchitecture_CommonPresenter.framework;
+			remoteRef = B3E5AE5027C124990091F6A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3E5AE5327C124990091F6A4 /* MyArchitecture-CommonPresenterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "MyArchitecture-CommonPresenterTests.xctest";
+			remoteRef = B3E5AE5227C124990091F6A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B3A9BFE127C1222100D3714E /* Resources */ = {
