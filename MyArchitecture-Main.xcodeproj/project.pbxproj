@@ -93,6 +93,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B392FCC727C2725F002DD2FB /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9BFE627C1222100D3714E /* AppDelegate.swift */,
+				B3A9BFE827C1222100D3714E /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		B392FCC927C2728D002DD2FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9BFEC27C1222100D3714E /* Main.storyboard */,
+				B3A9BFF227C1222900D3714E /* Assets.xcassets */,
+				B3A9BFF427C1222900D3714E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B392FCCA27C27299002DD2FB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B392FCCF27C27358002DD2FB /* UI */,
+				B392FCD027C27375002DD2FB /* Components */,
+				B392FCD127C2737E002DD2FB /* Screens */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B392FCCB27C272A5002DD2FB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9BFEF27C1222100D3714E /* MyArchitecture_Main.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B392FCCC27C272B2002DD2FB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B392FCCD27C272C2002DD2FB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B392FCCE27C27346002DD2FB /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9BFEA27C1222100D3714E /* ViewController.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		B392FCCF27C27358002DD2FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B392FCCE27C27346002DD2FB /* Test */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B392FCD027C27375002DD2FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B392FCD127C2737E002DD2FB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		B3A9BFDA27C1222100D3714E = {
 			isa = PBXGroup;
 			children = (
@@ -116,14 +197,13 @@
 		B3A9BFE527C1222100D3714E /* MyArchitecture-Main */ = {
 			isa = PBXGroup;
 			children = (
-				B3A9BFE627C1222100D3714E /* AppDelegate.swift */,
-				B3A9BFE827C1222100D3714E /* SceneDelegate.swift */,
-				B3A9BFEA27C1222100D3714E /* ViewController.swift */,
-				B3A9BFEC27C1222100D3714E /* Main.storyboard */,
-				B3A9BFF227C1222900D3714E /* Assets.xcassets */,
-				B3A9BFF427C1222900D3714E /* LaunchScreen.storyboard */,
+				B392FCCD27C272C2002DD2FB /* Utility */,
+				B392FCCA27C27299002DD2FB /* Presentation */,
+				B392FCCC27C272B2002DD2FB /* Domain */,
+				B392FCCB27C272A5002DD2FB /* Data */,
+				B392FCC927C2728D002DD2FB /* Resources */,
+				B392FCC727C2725F002DD2FB /* System */,
 				B3A9BFF727C1222900D3714E /* Info.plist */,
-				B3A9BFEF27C1222100D3714E /* MyArchitecture_Main.xcdatamodeld */,
 			);
 			path = "MyArchitecture-Main";
 			sourceTree = "<group>";
